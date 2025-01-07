@@ -48,9 +48,7 @@ class ProxyConfig:
         # List of channels or URLs to fetch proxy configurations from
         self.SOURCE_URLS = [
             ChannelConfig("https://t.me/s/v2ray_free_conf"),
-            ChannelConfig("https://t.me/s/PrivateVPNs"),
-            ChannelConfig("https://raw.githubusercontent.com/4n0nymou3/wg-config-fetcher/refs/heads/main/configs/wireguard_configs.txt"),
-            ChannelConfig("https://raw.githubusercontent.com/4n0nymou3/ss-config-updater/refs/heads/main/configs.txt")
+            ChannelConfig("https://t.me/s/TheCZ"),
         ]
 
         # Minimum and maximum number of configurations per protocol
